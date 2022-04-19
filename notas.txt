@@ -1,0 +1,36 @@
+https://www.youtube.com/watch?v=yP5DKzriqXA
+
+- Map Creation with Tiled Map Editor:
+      [x] Downloands and Stups
+	 - Find assets 	       [x]
+	 - Download Tiled      [x]
+	 - Import into project [x]
+      [x] Tile Layering for Plateua
+      [x] Tile Layering for a house
+      [x] Tile Layering for Ocean and Landmasses
+      [x] Layering and Placement Trees
+      [x] Collisions and Map Boundaries
+      [x] Foreground Layers
+      [x] Exporting Layers for Project Import
+
+- Player and Map Developement: 
+      [x] Project setup
+      [x] Import and render map
+      [] Player creation
+      [] Move player throught map on keydown
+      [] Player-to-map-boundary collisions
+      [] Foreground object
+      [] Player movement animation
+
+STOP: 1:28:52 -> continuar daqui...
+
+- Batlle Squeneces:
+      [] Batlle activation
+      [] Trasition from map to batlle squence
+      [] Draw batlleBackgound
+      [] Add batlle sprites
+      []
+      []
+      [] 
+	
+	
