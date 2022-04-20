@@ -16,8 +16,8 @@ https://www.youtube.com/watch?v=yP5DKzriqXA
 - Player and Map Developement: 
       [x] Project setup
       [x] Import and render map
-      [] Player creation
-      [] Move player throught map on keydown
+      [x] Player creation
+      [x] Move player throught map on keydown
       [] Player-to-map-boundary collisions
       [] Foreground object
       [] Player movement animation
