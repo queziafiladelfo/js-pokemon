@@ -18,11 +18,11 @@ https://www.youtube.com/watch?v=yP5DKzriqXA
       [x] Import and render map
       [x] Player creation
       [x] Move player throught map on keydown
-      [] Player-to-map-boundary collisions
+      [x] Player-to-map-boundary collisions
       [] Foreground object
       [] Player movement animation
 
-STOP: 1:28:52 -> continuar daqui...
+STOP: 3:05:36 -> continuar daqui...
 
 - Batlle Squeneces:
       [] Batlle activation
