@@ -21,16 +21,18 @@ https://www.youtube.com/watch?v=yP5DKzriqXA
       [x] Player-to-map-boundary collisions
       [x] Foreground object
       [x] Player movement animation
+      
 
-STOP: 3:05:36 -> continuar daqui...
+STOP: 3:53:50 -> continuar daqui...
 
 - Batlle Squeneces:
       [x] Batlle activation
-      [] Trasition from map to batlle squence
-      [] Draw batlleBackgound
-      [] Add batlle sprites
-      []
-      []
-      [] 
+      [x] Trasition from map to batlle squence
+      [x] Draw batlleBackgound
+      [x] Add batlle sprites
+      [] Add attack bar interface
+      [] Add health bar interface
+      [] Player attacks 
+      [] Enimies attacks
 	
-	
+	https://cdnjs.com/libraries/gsap

@@ -1,5 +1,5 @@
 class Sprite {
-    constructor({ position, velocity, image, frames = {max: 1}, sprites }) {
+    constructor({ position, image, frames = {max: 1, hold: 10}, sprites, animate = false }) {
         this.position = position;
         this.image = image;
         this.frames = { ...frames, val: 0, elapse: 0 };
@@ -10,7 +10,7 @@ class Sprite {
             console.log(this.width);
             console.log(this.height);
         }
-        this.moving = false;
+        this.animate = animate;
         this.sprites = sprites;
         
     }
@@ -27,13 +27,13 @@ class Sprite {
             this.image.width / this.frames.max,
             this.image.height
         )
-        if (!this.moving) return
+        if (!this.animate) return
 
         if (this.frames.max > 1) {
             this.frames.elapse++;
         } 
     
-        if ( this.frames.elapse % 10 === 0){
+        if ( this.frames.elapse % this.frames.hold === 0){
             if( this.frames.val < this.frames.max - 1) this.frames.val++;
                 else this.frames.val = 0;
         }
@@ -51,7 +51,7 @@ class Boundary {
     }
 
     draw() {
-        c.fillStyle = "rgba(255, 0, 0, 0.5)";
+        c.fillStyle = "rgba(255, 0, 0, 0.0)";
         c.fillRect(this.position.x, this.position.y, this.width, this.height);
     }
 }
