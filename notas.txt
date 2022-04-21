@@ -25,7 +25,7 @@ https://www.youtube.com/watch?v=yP5DKzriqXA
 STOP: 3:05:36 -> continuar daqui...
 
 - Batlle Squeneces:
-      [] Batlle activation
+      [x] Batlle activation
       [] Trasition from map to batlle squence
       [] Draw batlleBackgound
       [] Add batlle sprites
