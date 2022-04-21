@@ -19,8 +19,8 @@ https://www.youtube.com/watch?v=yP5DKzriqXA
       [x] Player creation
       [x] Move player throught map on keydown
       [x] Player-to-map-boundary collisions
-      [] Foreground object
-      [] Player movement animation
+      [x] Foreground object
+      [x] Player movement animation
 
 STOP: 3:05:36 -> continuar daqui...
 
